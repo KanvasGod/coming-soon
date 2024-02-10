@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  background: rgb(15, 15, 15);
+      background: -moz-linear-gradient(180deg, rgba(15, 15, 15, 1) 0%, rgba(32, 32, 32, 1) 35%, rgba(0, 0, 0, 1) 100%);
+      background: -webkit-linear-gradient(180deg, rgba(15, 15, 15, 1) 0%, rgba(32, 32, 32, 1) 35%, rgba(0, 0, 0, 1) 100%);
+      background: linear-gradient(180deg, rgba(15, 15, 15, 1) 0%, rgba(32, 32, 32, 1) 35%, rgba(0, 0, 0, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f0f0f", endColorstr="#000000", GradientType=1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 100%;
+  min-width: 400px;
+}
+
+.branding img {
+  width: 350px;
+}
+
+.branding {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 1.8em;
+  color: ghostwhite;
+}
+
+.branding p {
+  font-size: 0.6em;
+}
+
+.branding a {
+  color: rgb(225, 160, 94);
+}

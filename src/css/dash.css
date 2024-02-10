@@ -1,0 +1,42 @@
+.navbar {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 60px auto;
+    gap: 10px;
+}
+
+.displayCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.window {
+    border-radius: 10px;
+    background-color:rgb(32, 32, 32);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.window h1, p {
+    margin-top: 0;
+    text-transform: capitalize;
+    color: ghostwhite;
+}
+
+.icon {
+    color: ghostwhite;
+    opacity: 0.8;
+    font-size: 2em;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+.col {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}

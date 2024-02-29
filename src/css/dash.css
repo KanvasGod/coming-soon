@@ -40,3 +40,153 @@
     grid-template-columns: auto;
     gap: 10px;
 }
+
+.btnHub {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
+.btn {
+    border: none;
+    background: black;
+    border-radius: 10px;
+    list-style-type: none;
+    color: ghostwhite;
+    padding: 10px 50px 10px 10px;
+    width: 100%;
+    width: fit-content;
+    text-transform: capitalize;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.hiddenForm {
+    display: grid;
+    gap: 10px;
+    transition: all 0.5s;
+}
+
+.noneRow {
+    grid-template-columns: 0px auto;
+}
+.smRow {
+    grid-template-columns: 350px auto;
+}
+
+.form {
+    display: grid;
+    gap: 15px;
+    background: black;
+    border-radius: 10px;
+    padding: 10px 50px 10px 10px;
+    overflow: hidden;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.input {
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+    color: ghostwhite;
+    background: none;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 1em;
+}
+
+.title {
+    color: ghostwhite;
+    font-size: 0.8em;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: ghostwhite;
+    height: fit-content;
+    font-size: 1.1em;
+    text-transform: capitalize;
+}
+
+select option {
+    background-color: black;
+}
+
+.listItem button {
+    margin-left: 10px;
+
+}
+
+.listItem h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.btnActive {
+    background-color: greenyellow;
+}
+
+.btnDanger {
+    background-color: red;
+}
+
+.btnBlue {
+    background-color: rgb(96, 96, 246);
+}
+
+.btnScale {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnCenter {
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: ghostwhite;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.btnCenter:hover {
+    opacity: 1;
+}
+
+.btnWide {
+    width: 100%;
+}
+
+.textbox {
+    font-size: 1.1em;
+}
+
+.flexItem {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+

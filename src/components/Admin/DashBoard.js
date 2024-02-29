@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import '../../css/dash.css';
 import Nav from './Nav';
 import httpHardCode from '../../libs/http';
@@ -17,7 +17,6 @@ function Dashboard() {
         try {
             const url = `${apiUrl}/api/admin/server_info`;
             const response = await axios.get(url);
-            console.log(response.data);
             setName(response.data.server);
             setActive(response.data.active_sites);
             setLimit(response.data.page_limit);

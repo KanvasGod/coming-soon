@@ -6,21 +6,21 @@ function Nav({children}) {
     <div className='navbar'>
         <nav>
             <div className='window displayCenter col'>
-                <Link className='icon' to="/admin/dashboard">
+                <Link className='icon' to="/admin/account">
                     <i className="bi bi-person-circle"></i>
                 </Link>
 
                 <Link className='icon' to="/admin/dashboard">
-                    <i className="bi bi-door-open"></i>
+                    <i className="bi bi-house-door"></i>
                 </Link>
             </div>
 
             <div className='window displayCenter col'>
-                <Link className='icon' to="/admin/dashboard">
+                <Link className='icon' to="/admin/cloud">
                     <i className="bi bi-cloud"></i>
                 </Link>
 
-                <Link className='icon' to="/admin/dashboard">
+                <Link className='icon' to="/admin/whitepages">
                     <i className="bi bi-list-check"></i>
                 </Link>
             </div>
